@@ -1,6 +1,6 @@
 # Fight2048
 
-2048 Unity Project for studying zenject
+2048 Unity Project to study zenject
 
 ### Prerequisites
 
