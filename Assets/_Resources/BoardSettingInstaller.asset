@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35345f79cc45f45dca1222109d53a280, type: 3}
+  m_Name: BoardSettingInstaller
+  m_EditorClassIdentifier: 
+  BoardSetting:
+    Size: 4
+  SpawnSetting:
+    BaseTileValue: 2
+  ConverterSetting:
+    OffsetX: 0
+    OffsetZ: 0
+    TileOffsetY: 1
+    Unit: 1.1
+  TilePresenterSetting:
+    MoveSpeed: 30
