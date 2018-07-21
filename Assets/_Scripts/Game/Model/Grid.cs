@@ -107,7 +107,7 @@ namespace Fight2048.Game.Model
             {
                 tile.Number += previousTile.Number;
                 
-                _signalBus.Fire(new TileMerged(){ value  = previousTile.Number});
+                _signalBus.Fire(new TileMerged(){ value  = tile.Number});
                 
                 previousTile.PendingDistance = distance;
                 _tileRegistry.DespawnTile(previousTile);
