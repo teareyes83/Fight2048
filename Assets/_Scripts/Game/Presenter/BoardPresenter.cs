@@ -82,7 +82,7 @@ namespace Fight2048.Game.Presenter
         {
             this.UpdateAsObservable()
                 .Where(_ => Input.GetKeyDown(code))
-                .ThrottleFirst(TimeSpan.FromMilliseconds(500))
+//                .ThrottleFirst(TimeSpan.FromMilliseconds(500))
                 .Subscribe((u) => { Board.MoveTiles(direction); });
         }
     }
